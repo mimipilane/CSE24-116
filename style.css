@@ -1,0 +1,132 @@
+body {
+    font-family: "Georgia", sans-serif;
+    background-color: #f1e2b8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-color: #ff69b4;
+    padding: 1.25em;
+    text-align: center;
+    position: relative;
+    min-height: 5em; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+
+h1, h2 {
+    color: #8e44ad;
+    font-size: 2.25em;
+}
+nav {
+    background-color: #9b59b6;
+    padding: 0.625em;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.9375em;
+    font-size: 1.125em;
+}
+.container {
+    display: flex;
+    flex: 1;
+    margin: 1.25em;
+}
+aside {
+    width: 20%;
+    background-color: #ffb6c1;
+    padding: 0.9375em;
+}
+main {
+    flex: 1;
+    padding: 1.25em;
+}
+footer {
+    background-color: #9b59b6;
+    text-align: center;
+    padding: 0.625em;
+    width: 100%;
+}
+.search-bar {
+    position: absolute;
+    top: 1.25em;
+    right: 9.375em;
+}
+.auth-buttons {
+    position: absolute;
+    top: 1.25em;
+    right: 1.25em;
+}
+.auth-buttons .button {
+    background-color: #ff69b4;
+    color: white;
+    padding: 0.5em 0.9375em;
+    border-radius: 0.3125em;
+    text-decoration: none;
+    margin-left: 0.625em;
+}
+.social-icons {
+    margin-top: 0.625em;
+}
+.social-icons a {
+    display: inline-block;
+    margin: 0 0.625em;
+    width: 2.5em;
+    height: 2.5em;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.5em;
+    color: #ff69b4;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+.social-icons a:hover {
+    background-color: #ff69b4;
+    color: white;
+}
+
+.text-container{
+            padding: 1 em;
+            line-height: 1.6;
+            font-size: 1.125 em;
+            margin: 0 auto;
+            text-align: center;
+}
+
+.text-container p{
+            margin-bottom: 1.5 em;
+}
+
+footer {
+    background-color: #9b59b6;
+    text-align: center;
+    padding: 0.625em;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.625em;
+    font-size: 1.25em; 
+}
+
+footer a:hover {
+    color: #ff69b4;
+}
+
+footer i {
+    margin-right: 8px; 
+}
