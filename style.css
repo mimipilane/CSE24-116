@@ -104,7 +104,7 @@ footer {
 .text-container p{
             margin-bottom: 1.5 em;
 }
-
+@media(max-width: 50em){
 footer {
     background-color: #9b59b6;
     text-align: center;
@@ -129,4 +129,5 @@ footer a:hover {
 
 footer i {
     margin-right: 8px; 
+}
 }
